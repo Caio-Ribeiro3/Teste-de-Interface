@@ -1,26 +1,32 @@
 {
   "users": [
     {
+      "email": "email1@email.com",
       "registred": false,
       "complete": false
     },
     {
+      "email": "email2@email.com",
       "registred": true,
       "complete": false
     },
     {
+      "email": "email3@email.com",
       "registred": true,
       "complete": true
     },
     {
+      "email": "email4@email.com",
       "registred": false,
       "complete": false
     },
     {
+      "email": "email5@email.com",
       "registred": false,
       "complete": false
     },
     {
+      "email": "email6@email.com",
       "registred": false,
       "complete": false
     }

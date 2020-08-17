@@ -23,7 +23,7 @@ export const Container = styled.div`
 export const Header = styled.header`
   background: ${(props) => `url(${props.headerURL})`};
   height: 244px;
-  backgroundsize: contain;
+  background-size: contain;
 `;
 
 export const Main = styled.main`

@@ -3,7 +3,7 @@ import { StatusBlock, RowItem, RowItemText, FormatText } from "../styles";
 import ecday from "../assets/ecday.png";
 import eCPoints from "../assets/ecpoints.png";
 
-export default ({ registred, complete, marginTop }) => {
+export default ({ registred, complete, marginTop, email }) => {
   console.log(registred, complete, marginTop);
   return (
     <RowItem marginTop={marginTop}>
@@ -12,7 +12,7 @@ export default ({ registred, complete, marginTop }) => {
           {complete ? (
             <>
               <FormatText>Oba!</FormatText>
-              <FormatText bold>&nbsp; email@email.com &nbsp;</FormatText>
+              <FormatText bold>&nbsp; {email} &nbsp;</FormatText>
               <FormatText>
                 finalizou a pesquisa, e você ganhou 100 eCPoints!
               </FormatText>
@@ -20,12 +20,12 @@ export default ({ registred, complete, marginTop }) => {
           ) : registred ? (
             <>
               <FormatText>Oba!</FormatText>
-              <FormatText bold>&nbsp; email@email.com &nbsp;</FormatText>
+              <FormatText bold>&nbsp; {email} &nbsp;</FormatText>
               <FormatText>se inscreveu, e você ganhou 1 ecday!</FormatText>
             </>
           ) : (
             <>
-              <FormatText bold>email@email.com &nbsp;</FormatText>
+              <FormatText bold>{email} &nbsp;</FormatText>
               <FormatText>Recebeu o convite e estamos aguardando...</FormatText>
             </>
           )}
