@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "registred": false,
+      "complete": false
+    },
+    {
+      "registred": true,
+      "complete": false
+    },
+    {
+      "registred": true,
+      "complete": true
+    },
+    {
+      "registred": false,
+      "complete": false
+    },
+    {
+      "registred": false,
+      "complete": false
+    },
+    {
+      "registred": false,
+      "complete": false
+    }
+  ]
+}
